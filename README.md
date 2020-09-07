@@ -1,6 +1,6 @@
 # Impartus Scraper
 
-This is a scraper for the Impartus Lecture Capture system deployed in BITS Pilani Hyderabad Campus. No more crying when Impartus servers crash during exam time because of overload. You can even access lectures from previous years in case your current prof sucks :P
+This is a scraper for the Impartus Lectures system.
 
 This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that guy! 
 
