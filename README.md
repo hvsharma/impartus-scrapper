@@ -18,47 +18,49 @@ This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that
 	 imp_config.json:
 
 ```
-		{
-				"creds": {
-						"username": "20XXhcxxxxx@wilp.bits-pilani.ac.in",
-						"password": "xxxxxxxxxx"
-				}
+	{
+		"creds": {
+			"username": "20XXhcxxxxx@wilp.bits-pilani.ac.in",
+			"password": "xxxxxxxxxx"
 		}
+	}
 ```
 
 2. 'imp_lect_list_all.json' is your course_url file. Update the list according to the lectures you want to download. To find the URLs,
 	 login to impartus in browser and check the address bar for each course.
 
+	 You can just remove the entries which you don't want to download.
+
 ```
-		{
-			"section1-math": "http://a.impartus.com/ilc/#/course/220183/706",
-			"section2-math": "http://a.impartus.com/ilc/#/course/220184/706",
-			"section3-math": "http://a.impartus.com/ilc/#/course/220185/706",
-			"section4-math": "http://a.impartus.com/ilc/#/course/220186/706",
-			"section5-math": "http://a.impartus.com/ilc/#/course/220187/706",
+	{
+		"section1-math": "http://a.impartus.com/ilc/#/course/220183/706",
+		"section2-math": "http://a.impartus.com/ilc/#/course/220184/706",
+		"section3-math": "http://a.impartus.com/ilc/#/course/220185/706",
+		"section4-math": "http://a.impartus.com/ilc/#/course/220186/706",
+		"section5-math": "http://a.impartus.com/ilc/#/course/220187/706",
 
-			"section1-coss": "http://a.impartus.com/ilc/#/course/220173/706",
-			"section2-coss": "http://a.impartus.com/ilc/#/course/220174/706",
-			"section3-coss": "http://a.impartus.com/ilc/#/course/220175/706",
-			"section4-coss": "http://a.impartus.com/ilc/#/course/220176/706",
-			"section5-coss": "http://a.impartus.com/ilc/#/course/220177/706",
+		"section1-coss": "http://a.impartus.com/ilc/#/course/220173/706",
+		"section2-coss": "http://a.impartus.com/ilc/#/course/220174/706",
+		"section3-coss": "http://a.impartus.com/ilc/#/course/220175/706",
+		"section4-coss": "http://a.impartus.com/ilc/#/course/220176/706",
+		"section5-coss": "http://a.impartus.com/ilc/#/course/220177/706",
 
-			"section1-dm": "http://a.impartus.com/ilc/#/course/220168/706",
-			"section2-dm": "http://a.impartus.com/ilc/#/course/220169/706",
-			"section3-dm": "http://a.impartus.com/ilc/#/course/220170/706",
-			"section4-dm": "http://a.impartus.com/ilc/#/course/220171/706",
-			"section5-dm": "http://a.impartus.com/ilc/#/course/220172/706",
+		"section1-dm": "http://a.impartus.com/ilc/#/course/220168/706",
+		"section2-dm": "http://a.impartus.com/ilc/#/course/220169/706",
+		"section3-dm": "http://a.impartus.com/ilc/#/course/220170/706",
+		"section4-dm": "http://a.impartus.com/ilc/#/course/220171/706",
+		"section5-dm": "http://a.impartus.com/ilc/#/course/220172/706",
 
-			"section1-ds": "http://a.impartus.com/ilc/#/course/220178/706",
-			"section2-ds": "http://a.impartus.com/ilc/#/course/220179/706",
-			"section3-ds": "http://a.impartus.com/ilc/#/course/220180/706",
-			"section4-ds": "http://a.impartus.com/ilc/#/course/220181/706",
-			"section5-ds": "http://a.impartus.com/ilc/#/course/220182/706",
+		"section1-ds": "http://a.impartus.com/ilc/#/course/220178/706",
+		"section2-ds": "http://a.impartus.com/ilc/#/course/220179/706",
+		"section3-ds": "http://a.impartus.com/ilc/#/course/220180/706",
+		"section4-ds": "http://a.impartus.com/ilc/#/course/220181/706",
+		"section5-ds": "http://a.impartus.com/ilc/#/course/220182/706",
 
-			
-			"coss-webinars": "http://a.impartus.com/ilc/#/course/206942/706",
-			"ds-webinars": "http://a.impartus.com/ilc/#/course/206943/706"
-		}
+
+		"coss-webinars": "http://a.impartus.com/ilc/#/course/206942/706",
+		"ds-webinars": "http://a.impartus.com/ilc/#/course/206943/706"
+	}
 		
 ```
 
