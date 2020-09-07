@@ -1,0 +1,9 @@
+imp_data.json
+temp.py
+__pycache__
+build
+dist
+*.tmp
+ilc.sublime-project
+ilc.sublime-workspace
+*.exe
