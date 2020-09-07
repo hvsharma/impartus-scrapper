@@ -17,16 +17,19 @@ This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that
 
 	 imp_config.json:
 
+```
 		{
 				"creds": {
 						"username": "20XXhcxxxxx@wilp.bits-pilani.ac.in",
 						"password": "xxxxxxxxxx"
 				}
 		}
+```
 
 2. 'imp_lect_list_all.json' is your course_url file. Update the list according to the lectures you want to download. To find the URLs,
 	 login to impartus in browser and check the address bar for each course.
 
+```
 		{
 			"section1-math": "http://a.impartus.com/ilc/#/course/220183/706",
 			"section2-math": "http://a.impartus.com/ilc/#/course/220184/706",
@@ -57,8 +60,11 @@ This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that
 			"ds-webinars": "http://a.impartus.com/ilc/#/course/206943/706"
 		}
 		
+```
+
 3. Open 'sync_videos.py' and replace the paths if required for the config files and path to download videos:
 
+```
 	with open("D:\\impartus-scrapper\\imp_lect_list_all.json", 'r') as file_obj:
     course_urls = json.load(file_obj)
 
@@ -73,9 +79,13 @@ This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that
 	command = f"python D:\\impartus-scrapper\\ilc_scrape.py -u {username} -p {password} -o -a both -q 720p " \
               f"-d {download_dir} -w 2 -c {url} --ignore-gooey"
 
+```
 
 ## Running
 
 * Run following command, sit back and relax:
 
-	> python sync_videos.py
+```
+	python sync_videos.py
+
+```
