@@ -5,7 +5,7 @@ This is a scraper for the Impartus Lectures system.
 This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that guy! 
 
 **Pre-Run steps! - Do all of this before running:**
-1. Ensure you have [Python 3.7](https://www.python.org/downloads/) or higher installed, and available in your system `PATH`. To check, run `python --version` from command line/terminal.
+1. Ensure you have [Python 3.7+](https://www.python.org/downloads/) or higher installed, and available in your system `PATH`. To check, run `python --version` from command line/terminal.
 2. Install `ffmpeg` from [here](http://ffmpeg.org/download.html). Ensure it is in your PATH variable. To check, run `ffmpeg -version` from command line/terminal.
 3. Install [poetry]: `pip install --user poetry`.
 4. Clone this repo and extract it to some location.
