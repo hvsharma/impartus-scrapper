@@ -2,6 +2,8 @@
 
 This is a scraper for the Impartus Lectures system.
 
+Disclaimer: This is meant for own personal usage and for BITS Students only! Sharing of the lectures is illegal according to BITS policy so make sure you don't violate their terms. We are not responsible/accountable for the consequences if you try to do so!
+
 This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that guy! 
 
 **Pre-Run steps! - Do all of this before running:**
