@@ -80,7 +80,7 @@ This is taken from https://github.com/iamkroot/ilc-scraper . All credits to that
 	download_dir = "D:\\Lectures"
 
 
-	command = f"python D:\\impartus-scrapper\\ilc_scrape.py -u {username} -p {password} -o -a both -q 720p " \
+	command = f"python D:\\\impartus-scrapper\\\ilc_scrape.py -u {username} -p {password} -o -a both -q 720p " \
               f"-d {download_dir} -w 2 -c {url} --ignore-gooey"
 
 ```
